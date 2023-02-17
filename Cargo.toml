@@ -1,0 +1,23 @@
+cargo-features = ["resolver"]
+
+[workspace]
+members = [
+	"faucet",
+	"traits",
+	"relaychain-info",
+	"price-oracle",
+	"route-executor",
+	"transaction-multi-payment",
+	"nft",
+	"asset-registry",
+	"adapters",
+	"collator-rewards",
+	"transaction-pause",
+	"liquidity-mining",
+	"currencies",
+	"stableswap",
+	"test-utils",
+	"duster",
+]
+
+resolver = "2"
